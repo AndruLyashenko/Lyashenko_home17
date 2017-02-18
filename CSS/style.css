@@ -1,0 +1,35 @@
+header {
+    color: darkorange;
+}
+
+legend {
+    font-family: Arial, sans-serif, "Times New Roman";
+    font-weight: 600;
+    text-decoration: solid;
+    color: blue;
+}
+
+.text {
+    font-family: Arial, sans-serif, "Times New Roman";
+    font-weight: 600;
+    text-decoration: solid;
+    color: aqua;
+}
+
+.cursiv {
+    font-style: italic;
+    color: red;
+}
+
+.text1 {
+    font-family: Arial, sans-serif, "Times New Roman";
+    font-weight: 600;
+    text-decoration: solid;
+}
+
+textarea {
+    font-family: Arial, sans-serif, "Times New Roman";
+    font-weight: 600;
+    color: blueviolet;
+}
+
