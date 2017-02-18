@@ -12,32 +12,32 @@
 </header>
 <p class="cursiv">Попробуйте создать аналогичную форму. Для целей демонстрации подойдут и вымышленные.
 </p>
-<form name="test1" method="post">
+<form action="submit.php" name="test1" method="post">
     <p></p>
     <fieldset>
         <legend>Коротко о себе</legend>
-        <p class="text1"><label>Имя:<input type="text" name="sex" value="Андрей"></label></p>
-        <p class="text1"><label>Фамилия:<input type="text" name="sex" value="Ляшенко"></label></p>
-        <p class="text1"><label>Пол:<input type="radio" name="sex" checked>мужской </label>
-            <label><input type="radio" name="sex">женский</label>
+        <p class="text1"><label>Имя:<input type="text" name="firstname" value="Андрей"></label></p>
+        <p class="text1"><label>Фамилия:<input type="text" name="secondname" value="Ляшенко"></label></p>
+        <p class="text1"><label>Пол:<input type="radio" name="sex" checked id="sex-man">мужской </label>
+            <label><input type="radio" name="sex" id="sex-woman">женский</label>
         </p>
         <p class="text1"><label>Возраст:<input type="text" name="sex" value="31">лет</label></p>
     </fieldset>
     <p></p>
     <fieldset>
         <legend>Подробнее о себе</legend>
-        <p><label> <input type="radio" name="stat" checked>Молодой человек</label></p>
-        <p><label> <input type="radio" name="stat">Девушка</label></p>
-        <p><label> <input type="text" name="social" value="04.10.1985">Дата рождения</label>
+        <p><label> <input type="radio" name="gender" checked id="gender-man">Молодой человек</label></p>
+        <p><label> <input type="radio" name="gender" id="gender-woman">Девушка</label></p>
+        <p><label> <input type="text" name="birthday" value="04.10.1985">Дата рождения</label>
         </p>
         <p><label> <input type="text" name="social" value="не женат">Семейное положение</label>
         </p>
-        <p><label> <input type="text" name="social" value="ищу работу">Социальный статус</label>
+        <p><label> <input type="text" name="work" value="ищу работу">Социальный статус</label>
         </p>
-        <p><label> <input type="text" name="social" value="Черкассы">Местожительство</label></p>
+        <p><label> <input type="text" name="city" value="Черкассы">Местожительство</label></p>
         <p class="text">Что вы обычно делаете на выходных:
         </p>
-        <p><label><input type="checkbox" name="sleep" value="Сплю">Сплю</label></p>
+        <p><label><input type="checkbox" name="sleep activities" value="Сплю">Сплю</label></p>
         <p><label> <input type="checkbox" name="friend" value="Гуляю с друзьями">Гуляю с друзьями</label>
         </p>
         <p><label><input type="checkbox" name="fishing" value="Хожу на рыбалку">Хожу на рыбалку</label>
@@ -47,7 +47,7 @@
         <p class="text">Рассказать о формах в книге, посвященной HTML:</p>
         <label>
             <select size="" name="forms">
-                <option name="forms" selected value>Site frequency</option>
+                <option name="forms frequency" selected value>Site frequency</option>
                 <option name="forms" value="Vova">Vova</option>
                 <option name="forms" value="Andru">Andru</option>
             </select>
@@ -78,17 +78,17 @@
         <label><input type="email" name="email" id="Email"></label>
         <p class="text">Хотите подписаться на самую модную рассылку спама?</p>
         <p class="cursiv">Выберите категории</p>
-        <p><label> <input type="checkbox" name="Оборудование" value="Оборудование">Оборудование</label></p>
-        <p><label><input type="checkbox" name="Как приготовить обеды" value="Как приготовить обеды">Как приготовить
+        <p><label> <input type="checkbox" name="complexity equipment" value="Оборудование">Оборудование</label></p>
+        <p><label><input type="checkbox" name="cooking" value="Как приготовить обеды">Как приготовить
                 обеды</label></p>
-        <p><label><input type="checkbox" name="Заработай милион за два дня!" value="Заработай милион за два дня!">Заработай
+        <p><label><input type="checkbox" name="millon" value="Заработай милион за два дня!">Заработай
                 милион за два дня!
             </label>
         </p>
         <p class="text">На сколько сложная задача:</p>
-        <p><label> <input type="radio" name="goal" value="Совсем нет">Совсем нет</label></p>
-        <p><label><input type="radio" name="goal" value="Так себе">Так себе</label></p>
-        <p><label><input type="radio" name="goal" value="Еле справились">Еле справились</label></p>
+        <p><label> <input type="radio" name="goal" value="easy">Совсем нет</label></p>
+        <p><label><input type="radio" name="goal" value="small easy">Так себе</label></p>
+        <p><label><input type="radio" name="goal" value="hard">Еле справились</label></p>
     </fieldset>
     <p><input type="submit" value="Отправить"></p>
 </form>
