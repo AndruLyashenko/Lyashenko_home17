@@ -58,6 +58,7 @@ if ($result) {
 } else {
     echo "Виникла помилка:".$mysqli->error;
 };
+?>
 
 <a href="rezult.php">Дані успішно додано в БД</a>;
-?>
+
