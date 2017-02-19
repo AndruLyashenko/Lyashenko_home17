@@ -1,31 +1,39 @@
 <?php
-$firstname = $_POST ['Андрей'];
-$secondname = $_POST ['Ляшенко'];
-$sex = $_POST ['sex-man'];
-$age = $_POST ['31'];
-$gender = $_POST ['gender-man'];
-$birthday = $_POST ['04.10.1985'];
-$social = $_POST ['не женат'];
-$work = $_POST ['ищу работу'];
-$city = $_POST ['Черкассы'];
+$firstname = $_POST ['firstname'];
+$secondname = $_POST ['secondname'];
+$sex = $_POST ['sex'];
+if ($sex == 'sex-man') {
+    $sexWord = 'Мужcкой';
+} else {
+    $sexWord = 'Женский';
+}
+$age = $_POST ['age'];
+$gender = $_POST ['gender'];
+if ($gender == 'gender-man') {
+    $genderWord = 'Мужcкой';
+} else {
+    $genderWord = 'Женский';
+}
+$birthday = $_POST ['birthday'];
+$social = $_POST ['social'];
+$work = $_POST ['work'];
+$city = $_POST ['city'];
+$active = $_REQUEST['activities'];
+$test = '';
+if (isset($active)) {
+    $test = implode(', ', $active);
+};
+$books = $_POST ['books'];
+$comment = $_POST ['comment'];
+$email = $_POST ['email'];
+$spam = $_POST ['spam'];
+$spamAsString = '';
+if (isset($spam)) {
+    $spamAsString = implode(', ', $spam);
+};
+$complexity = $_POST ['complexity'];
 
-$activities = $_POST ['sleep'];
-$frequency = $_POST ['Andru'];
-
-$sleep = $_POST ['sleep'];
-$friend = $_POST ['friend'];
-$fishing = $_POST ['fishing'];
-$play = $_POST ['play'];
-$forms = $_POST ['Andru'];
-$books = $_POST ['50+'];
-$position = $_POST ['Вторая позиция'];
-$email = $_POST ['scientist_andru@ukr.net'];
-$equipment = $_POST ['equipment'];
-$complexity = $_POST ['cooking'];
-$millon = $_POST ['millon'];
-$goal = $_POST ['hard'];
-
-$mysqli = new mysqli('127.0.0.1', 'root', '', 'home17');
+$mysqli = new mysqli('localhost', 'root', '', 'home17');
 // О нет!! переменная connect_errno существует, а это значит, что соединение не было успешным!
 if ($mysqli->connect_errno) {
     // Соединение не удалось. Что нужно делать в этом случае?
@@ -45,18 +53,32 @@ if ($mysqli->connect_errno) {
     exit;
 }
 
+$firstname = mysqli_real_escape_string($mysqli, $firstname);
+$secondname = mysqli_real_escape_string($mysqli, $secondname);
+$sexWord = mysqli_real_escape_string($mysqli, $sexWord);
+$age = mysqli_real_escape_string($mysqli, $age);
+$genderWord = mysqli_real_escape_string($mysqli, $genderWord);
+$birthday = mysqli_real_escape_string($mysqli, $birthday);
+$social = mysqli_real_escape_string($mysqli, $social);
+$work = mysqli_real_escape_string($mysqli, $work);
+$city = mysqli_real_escape_string($mysqli, $city);
+$test = mysqli_real_escape_string($mysqli, $test);
+$books = mysqli_real_escape_string($mysqli, $books);
+$comment = mysqli_real_escape_string($mysqli, $comment);
+$spamAsString = mysqli_real_escape_string($mysqli, $spamAsString);
+$complexity = mysqli_real_escape_string($mysqli, $complexity);
 
 
-$sql = "INSERT INTO form_result (firstname, secondname, sex, age, gender, birthday, social, work, city, activities, frequency, books, position, email, spam, complexity)".
+$sql = "INSERT INTO form_rezult(firstname, secondname, sex, age, gender, birthday, social, work, city, activities, comment, books, email, spam, complexity)" .
     " VALUES ('$firstname', '$secondname', '$sex', '$age', '$gender' '$birthday', '$social',".
-    "'$work', '$city', '$activities', '$frequency', '$books', '$multiplesel', '$email', '$equipment', '$complexity');";
+    "'$work', '$city', '$books', '$email', '$spamAsString', '$complexity');";
 echo $sql;
 
 $result = $mysqli->query($sql);
 if ($result) {
     echo "<p>Дані успішно додано в БД";
 } else {
-    echo "Виникла помилка:".$mysqli->error;
+    echo "Виникла помилка:" . $mysqli->error;
 };
 ?>
 

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02884ffa-df63-465c-81ff-c6dcac689b1d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rezult.php" afterPath="$PROJECT_DIR$/rezult.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/submit.php" afterPath="$PROJECT_DIR$/submit.php" />
     </list>
     <ignored path="Home_3_Andru_Lyashenko.iws" />
@@ -35,23 +35,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="89" column="69" selection-start-line="89" selection-start-column="69" selection-end-line="89" selection-end-column="69" />
+            <state relative-caret-position="372">
+              <caret line="42" column="75" selection-start-line="42" selection-start-column="68" selection-end-line="42" selection-end-column="75" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="submit.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="submit.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/submit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+            <state relative-caret-position="817">
+              <caret line="78" column="39" selection-start-line="78" selection-start-column="39" selection-end-line="78" selection-end-column="39" />
               <folding>
-                <marker date="1487491954229" expanded="true" signature="1691:2065" ph="INSERT INTO anketa... " />
+                <marker date="1487511100341" expanded="true" signature="2568:2888" ph="INSERT INTO anketa... " />
+                <marker date="1487511100341" expanded="true" signature="2568:2889" ph="INSERT INTO form_result... " />
               </folding>
             </state>
           </provider>
@@ -60,12 +61,12 @@
       <file leaf-file-name="rezult.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rezult.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="68">
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
               <folding>
-                <marker date="1487446970118" expanded="true" signature="57:217" ph="SELECT first... " />
-                <marker date="1487446970118" expanded="true" signature="57:219" ph="SELECT first... " />
-                <marker date="1487446970118" expanded="true" signature="57:221" ph="INSERT INTO anketa... " />
+                <marker date="1487511100386" expanded="true" signature="57:207" ph="SELECT first... " />
+                <marker date="1487511100386" expanded="true" signature="57:209" ph="SELECT first... " />
+                <marker date="1487511100386" expanded="true" signature="57:211" ph="INSERT INTO anketa... " />
               </folding>
             </state>
           </provider>
@@ -91,9 +92,9 @@
         <option value="$PROJECT_DIR$/../Home_4_Andru_Lyashenko/style.css" />
         <option value="$PROJECT_DIR$/CSS/style.css" />
         <option value="$PROJECT_DIR$/Andru_Lyashenko_homework3.html" />
-        <option value="$PROJECT_DIR$/rezult.php" />
-        <option value="$PROJECT_DIR$/submit.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/submit.php" />
+        <option value="$PROJECT_DIR$/rezult.php" />
       </list>
     </option>
   </component>
@@ -236,16 +237,16 @@
       <workItem from="1487407577008" duration="2030000" />
       <workItem from="1487438450418" duration="8544000" />
       <workItem from="1487453811028" duration="445000" />
-      <workItem from="1487488774840" duration="3553000" />
+      <workItem from="1487488774840" duration="14133000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43862000" />
+    <option name="totallyTimeSpent" value="54442000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26618123" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -253,7 +254,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -303,7 +304,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1487491954229" expanded="true" signature="1691:2065" ph="INSERT INTO anketa... " />
+            <marker date="1487511100341" expanded="true" signature="2568:2888" ph="INSERT INTO anketa... " />
+            <marker date="1487511100341" expanded="true" signature="2568:2889" ph="INSERT INTO form_result... " />
           </folding>
         </state>
       </provider>
@@ -313,9 +315,9 @@
         <state relative-caret-position="204">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <marker date="1487446970118" expanded="true" signature="57:217" ph="SELECT first... " />
-            <marker date="1487446970118" expanded="true" signature="57:219" ph="SELECT first... " />
-            <marker date="1487446970118" expanded="true" signature="57:221" ph="INSERT INTO anketa... " />
+            <marker date="1487511100386" expanded="true" signature="57:207" ph="SELECT first... " />
+            <marker date="1487511100386" expanded="true" signature="57:209" ph="SELECT first... " />
+            <marker date="1487511100386" expanded="true" signature="57:211" ph="INSERT INTO anketa... " />
           </folding>
         </state>
       </provider>
@@ -341,7 +343,8 @@
         <state relative-caret-position="340">
           <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
           <folding>
-            <marker date="1487491954229" expanded="true" signature="1691:2065" ph="INSERT INTO anketa... " />
+            <marker date="1487511100341" expanded="true" signature="2568:2888" ph="INSERT INTO anketa... " />
+            <marker date="1487511100341" expanded="true" signature="2568:2889" ph="INSERT INTO form_result... " />
           </folding>
         </state>
       </provider>
@@ -351,9 +354,9 @@
         <state relative-caret-position="204">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <marker date="1487446970118" expanded="true" signature="57:217" ph="SELECT first... " />
-            <marker date="1487446970118" expanded="true" signature="57:219" ph="SELECT first... " />
-            <marker date="1487446970118" expanded="true" signature="57:221" ph="INSERT INTO anketa... " />
+            <marker date="1487511100386" expanded="true" signature="57:207" ph="SELECT first... " />
+            <marker date="1487511100386" expanded="true" signature="57:209" ph="SELECT first... " />
+            <marker date="1487511100386" expanded="true" signature="57:211" ph="INSERT INTO anketa... " />
           </folding>
         </state>
       </provider>
@@ -381,7 +384,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1487491954229" expanded="true" signature="1691:2065" ph="INSERT INTO anketa... " />
+            <marker date="1487511100341" expanded="true" signature="2568:2888" ph="INSERT INTO anketa... " />
+            <marker date="1487511100341" expanded="true" signature="2568:2889" ph="INSERT INTO form_result... " />
           </folding>
         </state>
       </provider>
@@ -391,9 +395,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1487446970118" expanded="true" signature="57:217" ph="SELECT first... " />
-            <marker date="1487446970118" expanded="true" signature="57:219" ph="SELECT first... " />
-            <marker date="1487446970118" expanded="true" signature="57:221" ph="INSERT INTO anketa... " />
+            <marker date="1487511100386" expanded="true" signature="57:207" ph="SELECT first... " />
+            <marker date="1487511100386" expanded="true" signature="57:209" ph="SELECT first... " />
+            <marker date="1487511100386" expanded="true" signature="57:211" ph="INSERT INTO anketa... " />
           </folding>
         </state>
       </provider>
@@ -424,31 +428,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rezult.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="68">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
           <folding>
-            <marker date="1487446970118" expanded="true" signature="57:217" ph="SELECT first... " />
-            <marker date="1487446970118" expanded="true" signature="57:219" ph="SELECT first... " />
-            <marker date="1487446970118" expanded="true" signature="57:221" ph="INSERT INTO anketa... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/submit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-          <folding>
-            <marker date="1487491954229" expanded="true" signature="1691:2065" ph="INSERT INTO anketa... " />
+            <marker date="1487511100386" expanded="true" signature="57:207" ph="SELECT first... " />
+            <marker date="1487511100386" expanded="true" signature="57:209" ph="SELECT first... " />
+            <marker date="1487511100386" expanded="true" signature="57:211" ph="INSERT INTO anketa... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="89" column="69" selection-start-line="89" selection-start-column="69" selection-end-line="89" selection-end-column="69" />
+        <state relative-caret-position="372">
+          <caret line="42" column="75" selection-start-line="42" selection-start-column="68" selection-end-line="42" selection-end-column="75" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/submit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="78" column="39" selection-start-line="78" selection-start-column="39" selection-end-line="78" selection-end-column="39" />
+          <folding>
+            <marker date="1487511100341" expanded="true" signature="2568:2888" ph="INSERT INTO anketa... " />
+            <marker date="1487511100341" expanded="true" signature="2568:2889" ph="INSERT INTO form_result... " />
+          </folding>
         </state>
       </provider>
     </entry>

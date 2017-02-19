@@ -1,15 +1,9 @@
 <?php
 while ($user = $result->fetch_assoc()) {};
-$sql = "SELECT firstname, secondname, sex, age, gender, birthday, social, work, city, activities, frequency, books, position, email, spam, complexity * FROM form_result ";
+$sql = "SELECT firstname, secondname, sex, age, gender, birthday, social, work, city, activities, frequency, books, email, spam, complexity * FROM form_rezult ";
 
-$resukt = $mysqli->query($sql);
-if ($resukt) {
-    echo "<p>Дані успішно додано в БД";
-} else {
-    echo "Виникла помилка:".$mysqli->error;
-}
-if ($resukt) {
-while($form_result = $resukt->fetch_assoc()) {
+$result = $mysqli->query($sql);
+while($form_result = $result->fetch_assoc()) {
 
 
 if (!$result = $mysqli->query($sql)) {
@@ -23,5 +17,5 @@ if (!$result = $mysqli->query($sql)) {
     echo "Номер_ошибки: " . $mysqli->errno . "\n";
     echo "Ошибка: " . $mysqli->error . "\n";
     exit;
-}}}
+}}
     ?>;

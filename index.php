@@ -21,7 +21,7 @@
         <p class="text1"><label>Пол:<input type="radio" name="sex" checked value="sex-man">мужской </label>
             <label><input type="radio" name="sex" value="sex-woman">женский</label>
         </p>
-        <p class="text1"><label>Возраст:<input type="text" name="sex" value="31">лет</label></p>
+        <p class="text1"><label>Возраст:<input type="text" name="age" value="age">лет</label></p>
     </fieldset>
     <p></p>
     <fieldset>
@@ -37,19 +37,19 @@
         <p><label> <input type="text" name="city" value="city">Местожительство</label></p>
         <p class="text">Что вы обычно делаете на выходных:
         </p>
-        <p><label><input type="checkbox" name="activities" value="sleep">Сплю</label></p>
-        <p><label> <input type="checkbox" name="activities" value="friend">Гуляю с друзьями</label>
+        <p><label><input type="checkbox" name="activities[]" value="sleep">Сплю</label></p>
+        <p><label> <input type="checkbox" name="activities[]" value="friend">Гуляю с друзьями</label>
         </p>
-        <p><label><input type="checkbox" name="activities" value="fishing">Хожу на рыбалку</label>
+        <p><label><input type="checkbox" name="activities[]" value="fishing">Хожу на рыбалку</label>
         </p>
-        <p><label><input type="checkbox" name="activities" value="play">Играю в игры</label>
+        <p><label><input type="checkbox" name="activities[]" value="play">Играю в игры</label>
         </p>
         <p class="text">Рассказать о формах в книге, посвященной HTML:</p>
         <label>
-            <select size="" name="forms">
-                <option name="frequency" selected value>Site frequency</option>
-                <option name="frequency" value="Vova">Vova</option>
-                <option name="frequency" value="Andru">Andru</option>
+            <select size="" name="frequency[]">
+                <option name="frequency[]" value="frequency">Site frequency</option>
+                <option name="frequency[]" value="Vova">Vova</option>
+                <option name="frequency[]" value="Andru">Andru</option>
             </select>
         </label>
         <p class="text">Сколько книг вы прочитали за свою жизнь:</p>
@@ -63,9 +63,9 @@
         <p>
             <label>
                 <select size="3" multiple name="forms">
-                    <option name="position" value="first position">Первая позиция</option>
-                    <option name="position" selected value="second position">Вторая позиция</option>
-                    <option name="position" value="therd position">Третья позиция</option>
+                    <option name="position[]" value="first position">Первая позиция</option>
+                    <option name="position[]" selected value="second position">Вторая позиция</option>
+                    <option name="position[]" value="therd position">Третья позиция</option>
                 </select>
             </label>
         </p>
@@ -78,10 +78,10 @@
         <label><input type="email" name="email" value="Email"></label>
         <p class="text">Хотите подписаться на самую модную рассылку спама?</p>
         <p class="cursiv">Выберите категории</p>
-        <p><label> <input type="checkbox" name="spam" value="equipment">Оборудование</label></p>
-        <p><label><input type="checkbox" name="spam" value="cooking">Как приготовить
+        <p><label> <input type="checkbox" name="spam[]" value="equipment">Оборудование</label></p>
+        <p><label><input type="checkbox" name="spam[]" value="cooking">Как приготовить
                 обеды</label></p>
-        <p><label><input type="checkbox" name="spam" value="millon">Заработай
+        <p><label><input type="checkbox" name="spam[]" value="millon">Заработай
                 милион за два дня!
             </label>
         </p>
